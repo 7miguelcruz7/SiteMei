@@ -171,3 +171,33 @@ footer {
     align-items: center;
     text-align: center;
   }
+
+  /* Seção Sobre */
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3em;
+  text-align: center; 
+  margin-left: 55vh;
+  margin-right: 55vh;
+  margin-top: 35vh;
+  margin-bottom: 35vh;
+}
+
+.sobre > h1 {
+
+  color: #2a7f8f;
+  font-size: 2.5em;
+  background-color: #f5f5dc;
+  border-radius: 50px;
+  box-shadow: 5px 2px 6px #2a7f8f;
+}
+
+#section-text-box {
+
+  font-size: 1.5em;
+  text-align: start;
+  box-shadow: 5px 2px 6px #2a7f8f;
+
+}
